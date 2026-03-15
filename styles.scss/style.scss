@@ -34,6 +34,27 @@ header{
                  cursor: pointer;
                    } 
           }
+         .header-list{
+           display: flex;
+           align-items: center; 
+           gap: 30px;
+           .header-item{
+            a{
+               
+               font-weight: 400;
+               font-size: 12px;
+               line-height:20px;
+               letter-spacing: 0.6;
+               text-align: center;
+               text-transform: uppercase;
+               color:#FFFFFF;
+              &:hover{
+                 color: #FFFFFFA1;
+                 cursor: pointer;
+              } 
+            }
+           }
+        } 
 
     }
 }

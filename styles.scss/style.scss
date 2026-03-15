@@ -167,5 +167,14 @@ header{
   }
 }
 @media(max-width:560px){
-
+  .section_one{
+    .section_one-wrapper{
+        .one-list{
+            .one-item{
+                flex-wrap: wrap;
+                text-align: center;
+            }
+        }
+    }
+  }
 }

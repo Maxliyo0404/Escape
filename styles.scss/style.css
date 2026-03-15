@@ -135,4 +135,10 @@ header .header-hero .hero-btn:hover {
   header .header-hero .hero-btn {
     padding: 10px 20px;
   }
+}
+@media (max-width: 560px) {
+  .section_one .section_one-wrapper .one-list .one-item {
+    flex-wrap: wrap;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

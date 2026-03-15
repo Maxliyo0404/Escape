@@ -62,7 +62,7 @@ header .header-hero {
   justify-content: center;
   flex-direction: column;
 }
-header .header-hero h3 {
+header .header-hero h2 {
   font-weight: 500;
   font-size: 50px;
   line-height: 51px;
@@ -77,4 +77,21 @@ header .header-hero p {
   letter-spacing: 0;
   color: rgba(255, 255, 255, 0.631372549);
   margin-bottom: 31px;
+}
+header .header-hero .hero-btn {
+  padding: 12px 34px;
+  font-size: 18px;
+  border: 1px solid #DD783F;
+  background: #DD783F;
+  box-shadow: 0 0 5px #000;
+  color: #fff;
+  outline: none;
+  cursor: progress;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+header .header-hero .hero-btn:hover {
+  background: none;
+  border: 1px solid #DD783F;
 }/*# sourceMappingURL=style.css.map */

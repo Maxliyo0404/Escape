@@ -112,6 +112,10 @@ header .header-hero .hero-btn:hover {
   color: #768088;
 }
 
+.section_two .section_two-wrapper {
+  padding: 60px 0;
+}
+
 @media (max-width: 660px) {
   header .header-container .header-list {
     gap: 6px;

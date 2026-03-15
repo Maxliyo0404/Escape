@@ -99,7 +99,7 @@ header .header-hero .hero-btn:hover {
 .section_one .section_one-wrapper {
   padding: 13px 0;
 }
-.section_one .section_one-wrapper .one-list {
+.section_one .section_one-wrapper .one-list .one-item {
   display: flex;
   align-items: center;
   justify-content: space-between;

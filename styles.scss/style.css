@@ -99,6 +99,19 @@ header .header-hero .hero-btn:hover {
 .section_one .section_one-wrapper {
   padding: 13px 0;
 }
+.section_one .section_one-wrapper .one-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_one .section_one-wrapper .one-list .one-item h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #768088;
+}
+
 @media (max-width: 660px) {
   header .header-container .header-list {
     gap: 6px;

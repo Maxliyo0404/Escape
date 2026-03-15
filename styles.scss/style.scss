@@ -157,21 +157,41 @@ header{
                 left: 20px;
                 display: flex;
                 flex-direction: column;
-                  h2{
-                  font-weight: 500;
-                  font-size: 50px;
-                  line-height: 51px; 
-                  letter-spacing: 2px;
+                .two-btn{
+                 max-width: 87px;
+                 padding:6px 9px;
+                border: 1px solid #DD783F;
+                background: #DD783F;
+                box-shadow: 0 0 5px #000;
+                border-radius: 2px;
+                color: #fff;
+                outline: none;
+                cursor: progress;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 13px;
+                  transform: translate(0, -70px);
+                  &:hover{
+                   background: none;
+                   border: 1px solid #DD783F;
+               }
+
+                }
+                  h3{
+                  font-weight: 400;
+                  font-size: 27px;
+                  line-height: 30px; 
+                  letter-spacing: 0;
                   color:#FFFFFF;
-                  margin-bottom: 20px;
+                  margin-bottom: 6px;
           }
          p{
                   font-weight: 400;
-                  font-size: 17px;
+                  font-size: 14px;
                   line-height: 20px; 
                   letter-spacing: 0;
                   color:#FFFFFFA1;
-                  margin-bottom: 31px;
+                  margin-bottom: 12px;
          }
             }
 

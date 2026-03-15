@@ -154,21 +154,40 @@ header .header-hero .hero-btn:hover {
   display: flex;
   flex-direction: column;
 }
-.section_two .section_two-wrapper .two-cards .two-card .two-info h2 {
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 51px;
-  letter-spacing: 2px;
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-btn {
+  max-width: 87px;
+  padding: 6px 9px;
+  border: 1px solid #DD783F;
+  background: #DD783F;
+  box-shadow: 0 0 5px #000;
+  border-radius: 2px;
+  color: #fff;
+  outline: none;
+  cursor: progress;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  transform: translate(0, -70px);
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-btn:hover {
+  background: none;
+  border: 1px solid #DD783F;
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info h3 {
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: 0;
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 .section_two .section_two-wrapper .two-cards .two-card .two-info p {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
   color: rgba(255, 255, 255, 0.631372549);
-  margin-bottom: 31px;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 660px) {

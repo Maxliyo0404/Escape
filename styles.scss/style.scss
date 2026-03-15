@@ -121,7 +121,7 @@ header{
 .section_two{
     .section_two-wrapper{
       padding: 60px 0;
-      .two-tetle{
+      .two-title{
         max-width: 161px;
         text-align: center;
         margin: 0 auto;
@@ -143,7 +143,41 @@ header{
             margin: 10px auto;
          }
       }
-      
+      .two-cards{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 20px;
+        .two-card{
+            max-width: 50%;
+            position: relative;
+            .two-info{
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                display: flex;
+                flex-direction: column;
+                  h2{
+                  font-weight: 500;
+                  font-size: 50px;
+                  line-height: 51px; 
+                  letter-spacing: 2px;
+                  color:#FFFFFF;
+                  margin-bottom: 20px;
+          }
+         p{
+                  font-weight: 400;
+                  font-size: 17px;
+                  line-height: 20px; 
+                  letter-spacing: 0;
+                  color:#FFFFFFA1;
+                  margin-bottom: 31px;
+         }
+            }
+
+        }
+      }
+
     }
 }
 

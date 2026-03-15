@@ -20,7 +20,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
 }
 header .header-container {
   padding: 20px 0;
@@ -55,4 +54,27 @@ header .header-container .header-list .header-item a {
 header .header-container .header-list .header-item a:hover {
   color: rgba(255, 255, 255, 0.631372549);
   cursor: pointer;
+}
+header .header-hero {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .header-hero h3 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 51px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+header .header-hero p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.631372549);
+  margin-bottom: 31px;
 }/*# sourceMappingURL=style.css.map */

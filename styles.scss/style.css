@@ -96,6 +96,9 @@ header .header-hero .hero-btn:hover {
   border: 1px solid #DD783F;
 }
 
+.section_one .section_one-wrapper {
+  padding: 13px 0;
+}
 @media (max-width: 660px) {
   header .header-container .header-list {
     gap: 6px;

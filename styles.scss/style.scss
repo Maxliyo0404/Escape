@@ -99,6 +99,18 @@ header{
         
     }
 }
+.section_one{
+    .section_one-wrapper{
+        padding: 13px 0;
+        .one-list{
+            .one-item{
+                h3{
+                    
+                }
+            }
+        }
+    }
+}
 
 @media(max-width:1160px){
     

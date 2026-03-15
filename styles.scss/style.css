@@ -94,4 +94,29 @@ header .header-hero .hero-btn {
 header .header-hero .hero-btn:hover {
   background: none;
   border: 1px solid #DD783F;
+}
+
+@media (max-width: 660px) {
+  header .header-container .header-list {
+    gap: 6px;
+  }
+  header .header-container .header-list .header-item a {
+    font-size: 13px;
+    text-transform: capitalize;
+  }
+  header .header-hero {
+    padding: 40px 0;
+    text-align: center;
+  }
+  header .header-hero h2 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+  header .header-hero p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  header .header-hero .hero-btn {
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

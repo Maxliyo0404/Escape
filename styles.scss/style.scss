@@ -121,7 +121,20 @@ header{
 .section_two{
     .section_two-wrapper{
       padding: 60px 0;
-      
+      .two-tetle{
+        max-width: 188px;
+        text-align: center;
+        margin: o auto;
+        margin-bottom: 16px;
+         h2{
+                   font-weight: 400;
+                  font-size: 20px;
+                  line-height: 22px; 
+                  letter-spacing: 2%;
+                  color:#2E2E2E;
+                  margin-bottom: 13px;
+                }
+      }
     }
 }
 

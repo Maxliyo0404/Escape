@@ -115,6 +115,20 @@ header .header-hero .hero-btn:hover {
 .section_two .section_two-wrapper {
   padding: 60px 0;
 }
+.section_two .section_two-wrapper .two-tetle {
+  max-width: 188px;
+  text-align: center;
+  margin: o auto;
+  margin-bottom: 16px;
+}
+.section_two .section_two-wrapper .two-tetle h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color: #2E2E2E;
+  margin-bottom: 13px;
+}
 
 @media (max-width: 660px) {
   header .header-container .header-list {

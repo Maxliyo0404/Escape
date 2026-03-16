@@ -305,6 +305,32 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
 }
+footer .footer {
+  padding: 82px 0;
+}
+footer .footer .footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer .footer-title h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #EFEFEF;
+  margin-bottom: 17px;
+}
+footer .footer .footer-title::after {
+  content: "";
+  display: block;
+  max-width: 100%;
+  height: 3px;
+  background: #e3e6e8;
+  margin: 10px auto;
+}
+
 @media (max-width: 960px) {
   .section_two .section_two-wrapper .two-cards {
     display: grid;

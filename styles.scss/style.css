@@ -144,13 +144,14 @@ header .header-hero .hero-btn:hover {
   gap: 20px;
 }
 .section_two .section_two-wrapper .two-cards .two-card {
-  max-width: 50%;
+  max-width: 100%;
   position: relative;
 }
 .section_two .section_two-wrapper .two-cards .two-card .two-info {
+  max-width: 100%;
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -188,6 +189,11 @@ header .header-hero .hero-btn:hover {
   letter-spacing: 0;
   color: rgba(255, 255, 255, 0.631372549);
   margin-bottom: 12px;
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-texts {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 @media (max-width: 660px) {

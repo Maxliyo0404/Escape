@@ -149,12 +149,13 @@ header{
         justify-content: space-between;
         gap: 20px;
         .two-card{
-            max-width: 50%;
+            max-width: 100%;
             position: relative;
             .two-info{
+                max-width: 100%;
                 position: absolute;
                 bottom: 20px;
-                left: 20px;
+                left: 10px;
                 display: flex;
                 flex-direction: column;
                 .two-btn{
@@ -184,15 +185,21 @@ header{
                   letter-spacing: 0;
                   color:#FFFFFF;
                   margin-bottom: 6px;
-          }
-         p{
+                  }
+                 p{        
                   font-weight: 400;
                   font-size: 14px;
                   line-height: 20px; 
                   letter-spacing: 0;
                   color:#FFFFFFA1;
                   margin-bottom: 12px;
-         }
+                 }
+                 .two-texts{
+                   
+                   display: flex;
+                   align-items: stretch;
+                   justify-content: space-between;
+                 }
             }
 
         }

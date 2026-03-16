@@ -249,8 +249,11 @@ header .header-hero .hero-btn:hover {
   max-width: 100%;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.0901960784);
 }
+.section_three .section_three-wrapper .three-list .three-item img {
+  width: 100%;
+}
 .section_three .section_three-wrapper .three-list .three-item .three-texts {
-  padding: 13px;
+  padding: 12px;
 }
 .section_three .section_three-wrapper .three-list .three-item .three-texts h3 {
   font-weight: 400;
@@ -275,6 +278,26 @@ header .header-hero .hero-btn:hover {
   background: #EFEFEF;
   margin-bottom: 7px;
 }
+.section_three .section_three-wrapper .three-list .three-item .three-texts .three-text {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts .three-text .three-rasm {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts .three-text .three-rasm img {
+  width: 25%;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts .three-text .three-rasm h5 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0;
+  color: #999999;
+}
 
 @media (max-width: 960px) {
   .section_two .section_two-wrapper .two-cards {
@@ -287,6 +310,14 @@ header .header-hero .hero-btn:hover {
   }
   .section_two .section_two-wrapper .two-cards .two-card .two-info .two-btn {
     transform: translate(0, -230px);
+  }
+}
+@media (max-width: 860px) {
+  .section_three .section_three-wrapper {
+    padding: 60px 0;
+  }
+  .section_three .section_three-wrapper .three-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 760px) {
@@ -382,5 +413,11 @@ header .header-hero .hero-btn:hover {
   }
   .section_two .section_two-wrapper .two-cards .two-card .two-info .two-texts img {
     width: 20%;
+  }
+  .section_three .section_three-wrapper {
+    padding: 40px 0;
+  }
+  .section_three .section_three-wrapper .three-list {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=style.css.map */

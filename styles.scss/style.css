@@ -309,6 +309,8 @@ footer .footer {
   padding: 82px 0;
 }
 footer .footer .footer-title {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,6 +330,32 @@ footer .footer .footer-title::after {
   max-width: 188px;
   height: 3px;
   background: #DEDEDE;
+}
+footer .footer .footer-title .form {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer .footer-title .form .label {
+  max-width: 100%;
+  padding: 8px 35px;
+  background: #FFFFFF;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #817F83;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+}
+footer .footer .footer-title .form .label input {
+  outline: none;
+  border: none;
+  background: none;
+}
+footer .footer .footer-title .form .footer-btn {
+  max-width: 125px;
+  padding: 12px 0;
 }
 
 @media (max-width: 960px) {

@@ -299,6 +299,12 @@ header .header-hero .hero-btn:hover {
   color: #999999;
 }
 
+footer {
+  background-image: url(../image/footer-bckg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media (max-width: 960px) {
   .section_two .section_two-wrapper .two-cards {
     display: grid;

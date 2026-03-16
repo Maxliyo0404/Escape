@@ -214,6 +214,32 @@ header .header-hero .hero-btn:hover {
   color: rgba(255, 255, 255, 0.6980392157);
 }
 
+.section_three .section_three-wrapper {
+  padding: 80px 0;
+}
+.section_three .section_three-wrapper .three-title {
+  max-width: 161px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.section_three .section_three-wrapper .three-title h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color: #2E2E2E;
+  margin-bottom: 13px;
+}
+.section_three .section_three-wrapper .three-title::after {
+  content: "";
+  display: block;
+  max-width: 100%;
+  height: 3px;
+  background: #e3e6e8;
+  margin: 10px auto;
+}
+
 @media (max-width: 960px) {
   .section_two .section_two-wrapper .two-cards {
     display: grid;

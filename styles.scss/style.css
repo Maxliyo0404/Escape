@@ -239,6 +239,42 @@ header .header-hero .hero-btn:hover {
   background: #e3e6e8;
   margin: 10px auto;
 }
+.section_three .section_three-wrapper .three-list {
+  display: grid;
+  align-items: stretch;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.section_three .section_three-wrapper .three-list .three-item {
+  max-width: 100%;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.0901960784);
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts {
+  padding: 13px;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0;
+  color: #101315;
+  margin-bottom: 6px;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 0;
+  color: #7A7A7A;
+  margin-bottom: 30px;
+}
+.section_three .section_three-wrapper .three-list .three-item .three-texts hr {
+  max-width: 100%;
+  height: 1px;
+  opacity: 80%;
+  background: #EFEFEF;
+  margin-bottom: 7px;
+}
 
 @media (max-width: 960px) {
   .section_two .section_two-wrapper .two-cards {

@@ -151,6 +151,9 @@ header{
         .two-card{
             max-width: 100%;
             position: relative;
+            img{
+                max-width: 100%;
+            }
             .two-info{
                 max-width: 100%;
                 position: absolute;
@@ -199,6 +202,22 @@ header{
                    display: flex;
                    align-items: stretch;
                    justify-content: space-between;
+                   .two-text{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    img{
+                        width: 50%;
+                    }
+                      h4{
+                         font-weight: 400;
+                         font-size: 12px;
+                         line-height: 35px; 
+                         letter-spacing: 0;
+                         color:#FFFFFFB2;
+                         
+                     }
+                   }
                  }
             }
 

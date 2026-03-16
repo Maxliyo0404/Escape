@@ -147,6 +147,9 @@ header .header-hero .hero-btn:hover {
   max-width: 100%;
   position: relative;
 }
+.section_two .section_two-wrapper .two-cards .two-card img {
+  max-width: 100%;
+}
 .section_two .section_two-wrapper .two-cards .two-card .two-info {
   max-width: 100%;
   position: absolute;
@@ -194,6 +197,21 @@ header .header-hero .hero-btn:hover {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-texts .two-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-texts .two-text img {
+  width: 50%;
+}
+.section_two .section_two-wrapper .two-cards .two-card .two-info .two-texts .two-text h4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 35px;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.6980392157);
 }
 
 @media (max-width: 660px) {

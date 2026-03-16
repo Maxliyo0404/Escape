@@ -149,16 +149,19 @@ header{
         justify-content: space-between;
         gap: 20px;
         .two-card{
-            max-width: 100%;
+            width: 50%;
             position: relative;
             img{
-                max-width: 100%;
+                width: 100%;
+                z-index: 1;
             }
             .two-info{
                 max-width: 100%;
                 position: absolute;
                 bottom: 20px;
-                left: 10px;
+                left: 20px;
+                right: 20px;
+                z-index: 2;
                 display: flex;
                 flex-direction: column;
                 .two-btn{
@@ -174,7 +177,7 @@ header{
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 13px;
-                  transform: translate(0, -70px);
+                  transform: translate(0, -88px);
                   &:hover{
                    background: none;
                    border: 1px solid #DD783F;
@@ -183,7 +186,7 @@ header{
                 }
                   h3{
                   font-weight: 400;
-                  font-size: 27px;
+                  font-size: 26px;
                   line-height: 30px; 
                   letter-spacing: 0;
                   color:#FFFFFF;
@@ -200,18 +203,16 @@ header{
                  .two-texts{
                    
                    display: flex;
-                   align-items: stretch;
+                   align-items: center;
                    justify-content: space-between;
                    .two-text{
                     display: flex;
                     align-items: center;
                     gap: 8px;
-                    img{
-                        width: 50%;
-                    }
-                      h4{
+                    
+                      p{
                          font-weight: 400;
-                         font-size: 12px;
+                         font-size: 13px;
                          line-height: 35px; 
                          letter-spacing: 0;
                          color:#FFFFFFB2;
@@ -241,13 +242,52 @@ header{
 
 }
 @media(max-width:960px){
-
+   .section_two{
+    .section_two-wrapper{
+        .two-cards{
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 30px;
+            .two-card{
+            width: 100%;
+            .two-info{
+                .two-btn{
+                    transform: translate(0, -230px);
+                }
+            }
+            }
+        }
+    }
+   }
 }
 @media(max-width:860px){
 
 }
 @media(max-width:760px){
-
+   .section_two{
+    .section_two-wrapper{
+        .two-cards{
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 30px;
+            .two-card{
+            width: 100%;
+            .two-info{
+                bottom: 5px;
+                .two-btn{
+                    transform: translate(0, -220px);
+                }
+                .two-texts{
+                    img{
+                        width: 20%;
+                    }
+                
+                }
+            }
+            }
+        }
+    }
+   }
 }
 @media(max-width:660px){
   header{
@@ -280,6 +320,34 @@ header{
         }
     }
   }
+  .section_two{
+    .section_two-wrapper{
+        padding: 20px 0;
+        .two-texts{
+            max-width: 100%;
+        }
+        .two-cards{
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 30px;
+            .two-card{
+            width: 100%;
+            .two-info{
+                bottom: 5px;
+                .two-btn{
+                    transform: translate(0, -80px);
+                }
+                .two-texts{
+                    img{
+                        width: 20%;
+                    }
+                    
+                }
+            }
+            }
+        }
+    }
+   }
 }
 @media(max-width:560px){
   .section_one{
@@ -292,4 +360,32 @@ header{
         }
     }
   }
+  .section_two{
+    .section_two-wrapper{
+        padding: 20px 0;
+        .two-texts{
+            max-width: 100%;
+        }
+        .two-cards{
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 30px;
+            .two-card{
+            width: 100%;
+            .two-info{
+                bottom: 1px;
+                .two-btn{
+                    transform: translate(0, 0px);
+                }
+                .two-texts{
+                    img{
+                        width: 20%;
+                    }
+                    
+                }
+            }
+            }
+        }
+    }
+   }
 }
